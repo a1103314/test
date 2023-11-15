@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.top{
+    width: 1920px;
+    height: 80px;
+    background: #AA0601;
+    display: flex;
+}
+
+.top .a{
+    width: 80px;
+    height: 49px;
+    margin-left: 312px;
+    margin-top: 16px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+.name p{
+    padding-right: 64px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: normal normal normal 20px/30px Source Han Sans TW;
+}
+
+.i{
+    margin-left: 724px;
+}
+
+.home{
+    background: ;
+    width: 1920px;
+    height: 787px;
+}
+
+.content1{
+    width: 1920px;
+    height: 488px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content1 h1{
+    margin: 0 auto;
+    font-size: 48px;
+    color: #650300;
+    padding-top: 80px;
+}
+.content1 .pic{
+    display: flex;
+    justify-content: center;
+}
+
+.p img{
+    width: 84px;
+    height: 84px;
+}
+.pic{
+    padding-top: 24px;
+}
+.p h2{
+    font-size: 24px;
+    color: #650300;
+    padding-bottom: 8px;
+}
+.p p{
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+    width: 306px;
+    padding-right: 24px;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    color: #650300;
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+.content2{
+    display: flex;
+    margin-top: 48px;
+    justify-content: center;
+}
+.pic2{
+    padding-right: 24px;
+    padding-bottom: 80px;
+}
+.pic2 img{
+    width: 416px;
+    height: 416px;
+}
+
+.pic2 p{
+    font-size: 48px;
+    color: #AA0601;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.bg2{
+    width: 1920px;
+    height: 608px;
+}
